@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filecoin Foundation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-black">
+
+    <!-- This is svg backgroud class for this page class="bg-cont-particles" -->
+
+    <div class="bg-white text-black d-flex h-100p bg-fip-particles bg-no-rp bg-pos-fip">
+        <!-- header of every page -->
+        <header class="pt-80 pl-50 d-flex flex-column just-content-space-between">
+            <div>
+                <a href="index.html"><img src="assets/logo-white.svg" height="40px"></a>
+                <nav class="pt-80">
+                    <ul class="list-style-type-none">
+                        <li class="pb-10"><a class="text-decoration-none text-black" href="about.html">About</a></li>
+                        <li class="pb-10"><a class="text-decoration-none text-black mt-20"
+                                href="philosophy.html">Philosophy</a></li>
+                        <li class="pb-10"><a class="text-decoration-none text-black" href="fips.html">FIPs</a></li>
+                        <li class="pb-10"><a class="text-decoration-none text-black" href="community.html">Filecoin
+                                Community</a>
+                        </li>
+                        <li class="pb-10"><a class="text-decoration-none text-black" href="team.html">Team</a></li>
+                        <li class="pb-10"><a class="text-decoration-none text-black" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="footer">
+                <ul class="mt-20 d-flex list-style-type-none pb-20">
+                    <li><a class="text-decoration-none text-black ts-10" href="#">Data & Privacy Policy</a>
+                        <span class="ts-10">|</span>
+                    </li>
+                    <li><a class="text-decoration-none text-black ts-10" href="#">&nbsp; Terms of use</a>
+                        <span class="ts-10">|</span>
+                    </li>
+                    <li><a class="text-decoration-none text-black ts-10" href="#">&nbsp; Credits</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="main-content d-flex flex-column align-items-left m-10">
+            <p class="mt-180 text-seagreen pb-10">FIP</p>
+            <hr class="w-80 bd-none bd-top">
+            <h1 class="ts-35 fw-light pt-10 mr-150">Filecoin Improvement Proposals (FIPs) </h1>
+            <h1 class="ts-35 fw-light pt-10 mr-150">What are FIPs?</h1>
+            <p class="ts-20 fw-light line-height-15 mt-40 mr-150 pb-20">
+                Filecoin Improvement Proposals (FIPs) are the primary mechanism for proposing new features or processes
+                for Filecoin. FIPs contain technical specifications for the proposed changes and act as the “source of
+                truth” for the community. Network upgrades and application standards for Filecoin are discussed and
+                developed through the FIP process.</p>
+            <p class="ts-20 fw-light line-height-15 mt-40 mr-150 pb-20">
+                Anyone within the Filecoin community has the ability to create an FIP. Guidelines for writing FIPs are
+                included in <span class="text-seagreen">FIP- 1</span>. The FIP should provide a concise technical
+                specification of the feature and its
+                rationale. The FIP author is responsible for building consensus within the community and documenting
+                dissenting opinions. Given the high technical bar for submitting a well-formed FIP, historically, most
+                FIP authors have been application or protocol developers.</p>
+            <h1 class="ts-35 fw-light pt-10 mr-150">Why do FIPs matter?</h1>
+            <p class="ts-20 fw-light line-height-15 mt-40 mr-150 pb-20">
+                FIPs play a central role in how changes happen and are documented on Filecoin. They are the way for
+                people to propose, debate and adopt changes. There are three different types of FIPs:</p>
+            <ul class="list-style-type-none">
+                <li class="pb-20 ts-20 fw-light line-height-15"> <span class="text-seagreen pr-10">•</span> Technical
+                    FIPs describe any change that
+                    affects most or all Filecoin implementations, such as a change to the the network protocol, a change
+                    in block or transaction validity rules, proposed application standards/conventions, or any change or
+                    addition that affects the interoperability of applications using Filecoin.
+
+                </li>
+                <li class="pb-20 ts-20 fw-light line-height-15"><span class="text-seagreen pr-10">•</span>Organizational
+                    FIPs describe processes
+                    surrounding Filecoin or propose a change to a process. Examples include procedures, guidelines,
+                    changes to the decision-making process, changes to the FIP process, and changes to the tools or
+                    environment used in Filecoin development.</li>
+                <li class="pb-20 ts-20 fw-light line-height-15"><span class="text-seagreen pr-10">•</span>Recovery FIPs
+                    that propose a state change
+                    that that cannot be addressed using the standard protocol, They are only valid under a limited,
+                    clearly-defined set of criteria (e.g., in the case of protocol bugs destroying network value). </li>
+            </ul>
+            <p class="ts-20 fw-light line-height-15 mt-40 mr-150 pb-20">
+                Along with providing a technical specification for changes, FIPs are the unit around which governance
+                happens in Filecoin: anyone is free to propose one, and then various stakeholders in the community will
+                debate to determine if it should be adopted as a standard or included in a network upgrade. Non-core
+                FIPs
+                don't have to be adopted by all applications, but core FIPs must be widely adopted (because all nodes
+                must
+                upgrade to stay part of the same network) -- therefore core FIPs require broader consensus within the
+                community than non-core FIPs.
+                Also see: <span class="text-seagreen">How to create an FIP</span>
+            </p>
+            <h1 class="ts-35 fw-light pt-10 mr-150">History of FIPs</h1>
+            <p class="ts-20 fw-light line-height-15 mt-40 mr-150 pb-20">
+                The Filecoin Improvement Proposals (FIPs) Github repository was created in March 2019 and launched in
+                September 2020. The FIP process is based on the Ethereum Improvement Proposals (EIPs) process, which is
+                itself based on the Bitcoin Improvement Proposals (BIPs) process and the Python Enhancement Proposals
+                (PEPs) process.
+            </p>
+            <p class="ts-20 fw-light line-height-15 mt-40 mr-150 pb-20">
+                FIP editors are tasked with reviewing FIPs for technical soundness, correct spelling/grammar, and code
+                style. The current FIP editors are:
+            </p>
+            <p class="ts-20 fw-light line-height-15 mt-40 mr-150 pb-20">
+                Filecoin Foundation (TBD), Community (Andrew Hill), Lotus, Forest (Austin), Protocol Labs Research
+                (Nicola).
+            </p>
+            <h1 class="ts-20 fw-bold pt-10 mr-150">If you’re interested to follow along or share your input about FIPs,
+                check out the FIP section of the Filecoin Discussion forum, where FIPs are discussed with the community.
+            </h1>
+
+            <button class="border-none text-black bg-white br-radius-100 br-2 pr-50 pl-50 pt-10 pb-10 mt-30">Participate
+            </button>
+
+
+            <div class="icon">
+                <svg width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.701599 0.527997L9.36679 10.6761L18.032 0.527998" stroke="black" />
+                </svg>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
